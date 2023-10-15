@@ -1,0 +1,22 @@
+baseURL = 'https://calendar.gerritbeine.com/'
+languageCode = 'de-de'
+title = 'Gerrits Kalender'
+theme = "anubis"
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "https://gerritbeine.de/"
+        weight = 1
+    [[menu.main]]
+        identifier = "bookme"
+        name = "Book me"
+        url = "https://bookme.gerritbeine.com/"
+        weight = 2
+
+[params]
+    author = "Gerrit Beine"
+    description = "Gerrits Kalender"
+    style = "light-without-switcher"
+    menu_item_separator = " - "
